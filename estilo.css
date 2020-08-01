@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;800&display=swap');
+
+.head{ 
+    display: flex;
+    height: 222px;
+    background: #412856;
+    
+}
+
+.titulo {
+
+    font-family: 'Roboto Slab', serif;
+    font-weight: 600;
+    font-size: 60px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+#imgdev {
+    width: 100%;
+}
+
+.cont2 {
+    background: linear-gradient(180deg, #7E649F 0% , #130D36 100%);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+}
+
+.txt {
+    font-family: 'Roboto Slab', serif;
+    font-size: 26px;
+    line-height: 26px;
+    line-height: 100%;
+    font-weight: lighter;
+    color: #FFFFFF;
+}
+
+.btn{
+    background-color: #AD72DF;
+    width: 368px;
+    height: 62px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    color: #FFFFFF;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.card{
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    align-items: center;
+}
+
+.card-img-top{
+    width: 35%;
+}
+
+.card-text {
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 20px;
+    color: #FFFFFF;
+    
+}
+
+.t1{   
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: lighter;
+    letter-spacing: 0.02em;
+    margin-top: -30px;
+}
+
+.t2 {
+
+    font-weight: bold;
+}
+
+.t3 {
+    font-weight: normal;
+    font-size: 22px;
+}
+
+.t4 {
+
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+h2 {
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 72px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.texto-titulo{
+    font-weight: bolder;
+}
+
+.titulo-final{
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 50px;
+    color: #FFFFFF;
+}
+
+.texto-final{
+    font-family: 'Roboto Slab', serif;
+    font-size: 26px;
+    line-height: 26px;
+    font-weight: lighter;
+    color: #FFFFFF;
+}
+
+.rodape{
+    width: 1440px;
+    height: 215px;
+    background: #000000;
+}
+
+.texto-rodape{
+    font-size: 26px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
