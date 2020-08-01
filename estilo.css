@@ -8,6 +8,9 @@
     background: #412856;
     
 }
+.imagem-dev{
+    width: 100%;
+}
 
 .titulo {
 
@@ -18,9 +21,6 @@
     color: #FFFFFF;
 }
 
-#imgdev {
-    width: 100%;
-}
 
 .cont2 {
     background: linear-gradient(180deg, #7E649F 0% , #130D36 100%);
