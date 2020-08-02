@@ -48,6 +48,7 @@
     font-weight: 500;
     font-size: 30px;
     line-height: 36px;
+    margin-bottom: 25px;
 }
 
 .card{
@@ -63,8 +64,6 @@
 .card-text {
     font-family: 'Roboto Slab', serif;
     font-style: normal;
-    font-weight: bold;
-    font-size: 32px;
     line-height: 20px;
     color: #FFFFFF;
     
@@ -79,12 +78,12 @@
 }
 
 .t2 {
-
+    font-size: 32px;
     font-weight: bold;
 }
 
 .t3 {
-    font-weight: normal;
+
     font-size: 22px;
 }
 
@@ -94,7 +93,7 @@
     font-size: 20px;
 }
 
-h2 {
+.texto-meio {
     font-family: 'Roboto Slab', serif;
     font-style: normal;
     font-weight: 500;
@@ -102,15 +101,22 @@ h2 {
     line-height: 72px;
     letter-spacing: 0.02em;
     color: #FFFFFF;
+    margin-top: 12%;
 }
 
 .texto-titulo{
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
     font-weight: bolder;
+    font-size: 60px;
+    line-height: 72px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-bottom: 10%;
 }
 
 .titulo-final{
     font-family: 'Roboto Slab', serif;
-    font-style: normal;
     font-weight: 500;
     font-size: 42px;
     line-height: 50px;
@@ -135,4 +141,60 @@ h2 {
     font-size: 26px;
     line-height: 26px;
     color: #FFFFFF;
+}
+
+
+@media screen and (max-width: 760px) {
+    .head {height: auto; padding: 15px;}
+
+    .titulo {font-size: 30px;}
+
+    .txt {font-size: 16px; margin-top: -20px;}
+
+    .btn {
+        width: 200px;
+        font-size: 20px;
+        padding: 12px;
+        margin-bottom: -25px;
+    }
+
+    .card-img-top{
+        width: 30%;
+        margin-top: 10px;
+    }
+
+    .t2 {font-size: 22px;}
+
+    .t1 {font-size: 16px;}
+    
+    .t3, .t4 { font-size: 16px; margin-top: -3%;}
+
+    .texto-meio{
+        font-size: 30px; margin-top: 5%; margin-bottom: -5%;
+    }
+    .texto-titulo {font-size: 30px;}
+
+    .titulo-final{
+        margin-top: -10%;
+        font-size: 24px;
+        margin-right: 10%;
+        margin-bottom: -15%;
+        text-align: left;
+        line-height: 100%;
+    }
+
+    .texto-final {
+        font-size: 16px;
+        text-align: justify;
+        margin-right: 35px;
+        line-height: 120%;
+        margin-bottom: 5%;
+    }
+
+    .rodape {height: auto; padding: 20px;}
+
+  
+
+
+
 }
