@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;800&display=swap');
+
+/* estilo geral */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto Slab', serif;
+    font-size: 1vw;
+    color: #FFFFFF;
+}
+
+/* estilo header */
+
+.head {
+    background: #412856;
+    height: auto; 
+    padding: 20px;
+}
+    @media (min-width: 1024px) {.head {height: 180px;}}
+    @media (min-width: 1440px){.head {height: 222px;}}
+    
+.titulo {
+    font-size: 8vw;
+    font-weight: 555;
+}
+    @media (min-width: 1024px) {.titulo {font-size: 60px;}}
+    @media (min-width: 1440px) {.titulo {font-size: 80px;}}
+
+.imagem-dev{
+    width: 100%;
+}
+
+/* estilo conteudo central */
+
+.cont2 {
+    background: linear-gradient(180deg, #7E649F 0% , #130D36 100%);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+    padding: 4%;
+}
+
+.txt {
+    font-size: 3vw; 
+    line-height: 110%;
+    font-weight: 500;
+}
+    @media (min-width: 768px) {
+        .txt {
+            font-size: 20px;
+            line-height: 22px;
+            margin-top: 40px;
+            margin-bottom: 30px;
+        }
+    }    
+    @media (min-width: 1024px) {
+        .txt {
+            font-size: 24px;
+            line-height: 24px;
+            margin-top: 50px;
+            margin-bottom: 40px;
+        }
+    }
+    @media (min-width: 1440px) {
+        .txt {
+            font-size: 26px;
+            line-height: 26px;
+            margin-top: 60px;
+            margin-bottom: 50px;
+        }
+    }
+
+.btn {
+    width: 50vw;
+    font-size: 4vw;
+    border-radius: 6px;
+    background-color: #AD72DF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #FFFFFF;
+}
+    .btn:hover{
+        background-color: rgba(131, 73, 193, 0.488);
+        color: rgba(53, 19, 89, 0.865);
+
+    }
+        @media (min-width: 768px) {.btn {width: 250px; font-size: 20px; margin-bottom: 50px;}}
+        @media (min-width: 1024px) {.btn {width: 320px; font-size: 25px; }}
+        @media (min-width: 1140px) {.btn {width: 368px; font-size: 30px; }}
+
+.card{
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    align-items: center;
+    width: 70vw;
+}
+    .card:hover{
+        background-color: rgba(0, 0, 0, 0.111);
+        border-radius: 30px;   
+        width: 80vw;
+        font-size: 5vw;
+    }
+    @media (min-width: 768px){.card:hover {line-height: 30px;}}
+    @media (min-width: 1024px){.card:hover {line-height: 35px;}}
+
+.card-img-top {
+    width: 30vw; 
+    margin-top: 8%;
+}
+    @media (min-width: 768px) {.card-img-top {width: 130px;}}
+    @media (min-width: 1440px) {.card-img-top {width: 152px;}}
+
+.t1 {font-size: 4vw; margin-top: -5%;}
+    @media (min-width: 768px) {.t1 {font-size: 3vw;}}
+    @media (min-width: 1024px){.t1 {font-size: 20px;}}
+    @media (min-width: 1440px){.t1 {font-size: 22px;} }
+
+.t2 {font-size: 5vw; font-weight: bold;}
+    @media (min-width: 768px) {.t2 {font-size: 3vw;}}
+    @media (min-width: 1024px){.t2 {font-size: 26px;}}
+    @media (min-width: 1440px){.t2 {font-size: 32px;}}
+ 
+.t3, .t4 {font-size: 3vw; margin-top: -3%;}
+    @media (min-width: 768px) {.t3, .t4 {font-size: 2vw;}}
+    @media (min-width: 1024px) {.t3, .t4 {font-size: 18px;}}
+    @media (min-width: 1440px) {.t3, .t4 {font-size: 22px;}}
+
+
+/* estilo textos finais */
+
+.texto-meio {font-size: 6vw; margin-top: 5%; margin-top: 10%; }
+
+.texto-titulo {font-size: 6vw; font-weight: bold; margin-top: -4%;}
+    @media (min-width: 768px){ .texto-titulo{margin-bottom: 10%;}}
+    @media (min-width: 1024px){.texto-titulo, .texto-meio{font-size: 60px;}}
+
+.titulo-final{
+    font-size: 6vw;
+    line-height: 150%;
+    padding-left: 5%;
+    margin-top: 2%;
+}
+    @media(min-width: 576px){.titulo-final{font-size: 26px; text-align: left; margin-top: 6%}}
+    @media(min-width: 768px){.titulo-final{font-size: 30px; text-align: left; margin-top: 6%}}
+
+    @media (min-width: 1024px) {
+        .titulo-final{
+            font-size: 34px;
+            font-weight: bolder;
+            text-align: right;
+            margin-bottom: 5%;
+            margin-top: -3%;
+            margin-right: -3%;
+            padding: 5%;
+        }
+    } 
+
+    @media (min-width: 1440px) {
+        .titulo-final{
+            font-size: 42px;
+            font-weight: bolder;
+            text-align: right;
+            margin-bottom: 5%;
+            margin-top: -4%;
+            padding: 5%;
+        }
+    } 
+
+.linha-vertical{
+    height: 110px;
+    margin-left: 8px;
+    border-left: 3px solid #FFFFFF;
+}
+    @media(max-width: 1023px){
+        .linha-vertical{
+            height: 0;
+        }
+    }
+    @media (min-width: 1024px) {.linha-vertical{height: 17vw;}}
+    @media (min-width: 1140px) {.linha-vertical{height: 196px;}}  
+
+.texto-final {
+    font-size: 4vw;
+    text-align: justify;
+    line-height:130%;
+    padding: 7%;
+}
+    @media(min-width: 576px){
+        .texto-final{font-size: 13px; margin-left: 5%; text-align: left; padding: 0; margin-top: 5%;}
+    }
+
+    @media (min-width: 768px) {
+        .texto-final{
+            font-size: 16px;
+            line-height: 18px;
+            font-weight: lighter;
+            margin-bottom: 7%;
+            margin-top: 7%;
+            margin-left: 0;
+        }
+    } 
+    @media (min-width: 1024px) {
+        .texto-final{
+            font-size: 20px;
+            line-height: 22px;
+            font-weight: lighter;
+            margin-bottom: 5%;
+            margin-top: 2%;
+            margin-left: 4%;
+        }
+    } 
+    @media (min-width: 1440px) {
+        .texto-final{
+            font-size: 26px;
+            line-height: 26px;
+            font-weight: lighter;
+            margin-bottom: 5%;
+            margin-top: 2%;
+            margin-left: 4%;
+        }
+    } 
+
+.rodape {height: auto; background-color: black;}
+    @media(min-width: 768px){.rodape{height: 100px;}}
+    @media(min-width: 1024px){.rodape{height: 150px;}}
+    @media(min-width: 1140px){.rodape{height: 215px;}}
+
+.texto-rodape {font-size: 4vw; margin-top: 5vw;}
+    @media(min-width: 768px){.texto-rodape{margin-top: 4vw;}}
+    @media(min-width: 1024px){.texto-rodape{font-size: 26px; margin-top: 5vw;}}
+    @media(min-width: 1140px){.texto-rodape{margin-top: 7vw;}}
+
+/* Media query - telas grandes */
+
+

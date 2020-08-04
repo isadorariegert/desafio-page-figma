@@ -7,37 +7,38 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="novo.css">
     <title>Developer</title>
   </head>
   <body>
-      <div class="container-fluid ">
+    <header>
+        <div class="container-fluid ">
             <div class="row head align-items-center">
                 <div class="col">
                     <h1 class="display-3 text-center titulo">Developer</h1>
                 </div>
-            </div>
+            </div>             
         </div>
         <picture class="img-fluid d-block">  
             <source srcset="img/developer-1.webp" class="m-0 p-0 img-fluid imagem-dev mw-100" type="image/webp">          
-            <img class="img-fluid imagem-dev" src="img/developer 1.png" alt="">
-        </picture>
-
+            <img class="img-fluid  mw-100 imagem-dev " src="img/developer 1.png" alt="">
+        </picture>                         
+    </header>
       <div class="container-fluid cont2">
             <div class="row justify-content-center">
-                <div class="col-11 mt-5 text-center">
+                <div class="col-11 mt-4 text-center">
                     <p class="txt"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolor</p>
                 </div>
             </div>
             <div class="row justify-content-center align-items-center ">
                 <div class="col-xs-6 d-flex justify-content-center mt-3">
-                    <a class="btn" href="#"> SAIBA MAIS</a>
+                    <a class="btn" id="botao" href="#"> SAIBA MAIS</a>
                 </div>
             </div>
-            <div class="row d-flex justify-content-center mt-5">
-                <div class="col-xs-8 col-md-4  d-flex justify-content-between">
+            <div class="row d-flex justify-content-center mt-3">
+                <div class="col-xs-8 col-md-4  d-flex justify-content-center">
                     <div class="card " >
-                        <img class="card-img-top" src="img/no-profile-picture 1.png" alt="Imagem de capa do card">
+                        <img class="card-img-top" id="img1"  src="img/no-profile-picture 1.png" alt="Imagem de capa do card">
                         <div class="card-body text-center">
                             <p class="card-text t1">Inovador</p>
                             <p class="card-text t2">Antonio Frontier</p>
@@ -46,9 +47,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-8 col-md-4 d-flex justify-content-between">
+                <div class="col-xs-8 col-md-4 d-flex justify-content-center">
                     <div class="card" >
-                        <img class="card-img-top" src="img/no-profile-picture 2.png" alt="Imagem de capa do card">
+                        <img class="card-img-top" id="img2"  src="img/no-profile-picture 2.png" alt="Imagem de capa do card">
                         <div class="card-body text-center">
                           <p class="card-text t1 ">Pensador</p>
                           <p class="card-text t2 ">Julia</p>
@@ -57,9 +58,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-8 col-md-4  d-flex justify-content-between">
+                <div class="col-xs-8 col-md-4  d-flex justify-content-center">
                     <div class="card" >
-                        <img class="card-img-top" src="img/no-profile-picture 3.png" alt="Imagem de capa do card">
+                        <img class="card-img-top" id="img3" src="img/no-profile-picture 3.png" alt="Imagem de capa do card">
                         <div class="card-body text-center">
                             <p class="card-text t1 ">Sentimental</p>
                             <p class="card-text t2 ">Caise</p>
@@ -75,38 +76,44 @@
                 </div>
             </div>
             <div class="row justify-content-center">
-                <div class="col-xs-4 col-md-8 col-lg-10 text-center ">
+                <div class="col-xs-4 col-md-8 col-lg-10 mb-4 text-center ">
                     <p class="texto-titulo">Qual é o seu perfil? </p>
                 </div>
             </div>
-            <div class="row my-5">
-                <div class="col-sm-3 ml-2 text-right titulo-final">
+            <div class="row">
+                <div class="col-sm-4 ml-2 titulo-final">
                     <p>Busca capacitação constante<p>                    
                 </div>
+
                 <div class="linha-vertical"></div>
-                <div class="col-sm-7 ml-5 mr-auto texto-final">
+
+                <div class="col-sm-6 mr-auto texto-final">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolor.</p>
                 </div>
             </div>
             <div class="row mb-5">
-                <div class="col-sm-3 ml-2 text-right titulo-final">
+                <div class="col-sm-4 ml-2  titulo-final">
                     <p>Gosta de aprender<p>
                 </div>
                 <div class="linha-vertical"></div>
-                <div class="col-sm-7 ml-5 mr-auto texto-final">
+                <div class="col-sm-6  mr-auto texto-final">
                     <p>eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum </p>
                 </div>
-            </div>
-            <div class="row ">
-                <div class="col rodape mt-5 d-flex align-items-center justify-content-center">
-                    <p class="texto-rodape">Cinetica.ag - 2020@</p>
+            </div>               
+        </div>
+        <footer>
+            <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col rodape  d-flex justify-content-center">
+                    <p class="texto-rodape ">Cinetica.ag - 2020&copy; </p>
                 </div>
             </div>
-                
-        </div>
+            </div>
+        </footer>
 
 
         <!-- JavaScript (Opcional) -->
+        <script src="eventos.js"></script>
         <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
