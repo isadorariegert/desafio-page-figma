@@ -39,37 +39,27 @@ body {
 
 .cont2 {
     background: linear-gradient(180deg, #7E649F 0% , #130D36 100%);
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     padding: 4%;
 }
 
 .txt {
-    font-size: 3vw; 
-    line-height: 110%;
+    font-size: 3.5vw; 
     font-weight: 500;
+    margin-top: 1.3vw;
+    margin-bottom: 1vw;
 }
-    @media (min-width: 768px) {
-        .txt {
-            font-size: 20px;
-            line-height: 22px;
-            margin-top: 40px;
-            margin-bottom: 30px;
-        }
-    }    
+    @media (min-width: 768px) {.txt {font-size: 22px;}}    
     @media (min-width: 1024px) {
         .txt {
             font-size: 24px;
-            line-height: 24px;
-            margin-top: 50px;
-            margin-bottom: 40px;
+            line-height: 1.4;
         }
     }
     @media (min-width: 1440px) {
         .txt {
             font-size: 26px;
             line-height: 26px;
-            margin-top: 60px;
-            margin-bottom: 50px;
         }
     }
 
@@ -78,17 +68,16 @@ body {
     font-size: 4vw;
     border-radius: 6px;
     background-color: #AD72DF;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.50);
     color: #FFFFFF;
 }
-    .btn:hover{
-        background-color: rgba(131, 73, 193, 0.488);
-        color: rgba(53, 19, 89, 0.865);
-
-    }
-        @media (min-width: 768px) {.btn {width: 250px; font-size: 20px; margin-bottom: 50px;}}
-        @media (min-width: 1024px) {.btn {width: 320px; font-size: 25px; }}
-        @media (min-width: 1140px) {.btn {width: 368px; font-size: 30px; }}
+    @media (min-width: 768px) {.btn {width: 250px; font-size: 20px; margin-bottom: 50px;}}
+    @media (min-width: 1024px) {.btn {width: 320px; font-size: 25px; }}
+    @media (min-width: 1140px) {.btn {width: 368px; font-size: 30px; }}
+        .btn:hover{
+            background-color: #130d36d0;
+            color: #FFFFFF;
+        }
 
 .card{
     background-color: rgba(0, 0, 0, 0);
@@ -96,6 +85,7 @@ body {
     align-items: center;
     width: 70vw;
 }
+    
     .card:hover{
         background-color: rgba(0, 0, 0, 0.111);
         border-radius: 30px;   
@@ -109,16 +99,19 @@ body {
     width: 30vw; 
     margin-top: 8%;
 }
-    @media (min-width: 768px) {.card-img-top {width: 130px;}}
+    @media (min-width:580px)   {.card-img-top{width: 25vw;}}
+    @media (min-width: 768px)  {.card-img-top {width: 130px;}}
     @media (min-width: 1440px) {.card-img-top {width: 152px;}}
 
 .t1 {font-size: 4vw; margin-top: -5%;}
+    @media (min-width: 580px) {.t1 {font-size: 3.7vw;}}   
     @media (min-width: 768px) {.t1 {font-size: 3vw;}}
     @media (min-width: 1024px){.t1 {font-size: 20px;}}
     @media (min-width: 1440px){.t1 {font-size: 22px;} }
 
 .t2 {font-size: 5vw; font-weight: bold;}
-    @media (min-width: 768px) {.t2 {font-size: 3vw;}}
+    @media (min-width: 580px) {.t2 {font-size: 4.5vw;}} 
+    @media (min-width: 768px) {.t2 {font-size: 2.6vw;}}
     @media (min-width: 1024px){.t2 {font-size: 26px;}}
     @media (min-width: 1440px){.t2 {font-size: 32px;}}
  
@@ -232,16 +225,3 @@ body {
     @media(min-width: 1024px){.texto-rodape{font-size: 26px; margin-top: 5vw;}}
     @media(min-width: 1140px){.texto-rodape{margin-top: 7vw;}}
 
-/* Media query - telas grandes */
-
-@media(min-width: 768px){
-
-}
-
-@media(min-width: 1024px){
-
-}
-
-@media(min-width: 1140px){
-
-}
