@@ -225,3 +225,10 @@ body {
     @media(min-width: 1024px){.texto-rodape{font-size: 26px; margin-top: 5vw;}}
     @media(min-width: 1140px){.texto-rodape{margin-top: 7vw;}}
 
+/*
+<img src="img/developer-1.webp" type="img/webp"
+                 srcset="img/dev425.png 425w, img/dev768.jpeg 768w"
+                 sizes="100w"
+                 alt="Imagem de tela de computador com codigos em HTML" class="img-fluid  mw-100 imagem-dev">
+
+*/
