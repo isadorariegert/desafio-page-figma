@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;800&display=swap');
 
-/* estilo geral */
+/* ================================  geral ==================================== */
 * {
     margin: 0;
     padding: 0;
@@ -14,44 +14,44 @@ body {
     color: #FFFFFF;
 }
 
-/* estilo header */
+/* ========================= estilo do header header =========================== */
 
-.head {
+.div-header {
     background: #412856;
     height: auto; 
     padding: 20px;
 }
-    @media (min-width: 1024px) {.head {height: 180px;}}
-    @media (min-width: 1440px){.head {height: 222px;}}
+    @media (min-width: 1024px) {.div-header {height: 180px;}}
+    @media (min-width: 1440px){.div-header {height: 222px;}}
     
-.titulo {
+.titulo-header {
     font-size: 8vw;
     font-weight: 555;
 }
-    @media (min-width: 1024px) {.titulo {font-size: 60px;}}
-    @media (min-width: 1440px) {.titulo {font-size: 80px;}}
+    @media (min-width: 1024px) {.titulo-header {font-size: 60px;}}
+    @media (min-width: 1440px) {.titulo-header {font-size: 80px;}}
 
-.imagem-dev{
+.imagem-header {
     width: 100%;
 }
 
-/* estilo conteudo central */
+/* ========================= estilo conteudo central ============================ */
 
-.cont2 {
+.container-central {
     background: linear-gradient(180deg, #7E649F 0% , #130D36 100%);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     padding: 4%;
 }
 
-.txt {
+.texto-inicial {
     font-size: 3.5vw; 
     font-weight: 500;
 }
-    @media (min-width: 768px) {.txt {font-size: 22px;}}    
-    @media (min-width: 1024px) {.txt {font-size: 24px;line-height: 1.4;font-weight: 300;}}
-    @media (min-width: 1440px) {.txt {font-size: 26px; line-height: 26px;}}
+    @media (min-width: 768px) {.texto-inicial {font-size: 22px;}}    
+    @media (min-width: 1024px) {.texto-inicial {font-size: 24px;line-height: 1.4;font-weight: 300;}}
+    @media (min-width: 1440px) {.texto-inicial {font-size: 26px; line-height: 26px;}}
 
-.btn {
+.botao-central {
     width: 50vw;
     font-size: 4vw;
     border-radius: 6px;
@@ -59,13 +59,16 @@ body {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.50);
     color: #FFFFFF;
 }
-    @media (min-width: 768px) {.btn {width: 250px; font-size: 20px; margin-bottom: 30px;}}
-    @media (min-width: 1024px) {.btn {width: 320px; font-size: 25px; }}
-    @media (min-width: 1140px) {.btn {width: 368px; font-size: 30px; }}
-        .btn:hover{
+    @media (min-width: 768px) {.botao-central {width: 250px; font-size: 20px; margin-bottom: 30px;}}
+    @media (min-width: 1024px) {.botao-central {width: 320px; font-size: 25px;}}
+    @media (min-width: 1140px) {.botao-central {width: 368px; font-size: 30px;}}
+
+/* ============================ evento de estilo botao ============================ */
+        .botao-central:hover {
             background-color: #130d36d0;
             color: #FFFFFF;
         }
+/* =============================================================================== */
 
 .card{
     background-color: rgba(0, 0, 0, 0);
@@ -73,49 +76,68 @@ body {
     align-items: center;
     width: 70vw;
 }
-    
-    .card:hover{
-        background-color: rgba(0, 0, 0, 0.111);
-        border-radius: 30px;   
-        width: 80vw;
-        font-size: 5vw;
-    }
     @media (min-width: 768px){.card:hover {line-height: 30px;}}
     @media (min-width: 1024px){.card:hover {line-height: 35px;}}
+        
+/* =========================== evento de estilo card ============================ */
+        .card:hover{
+            background-color: rgba(0, 0, 0, 0.111);
+            border-radius: 30px;   
+            width: 80vw;
+            font-size: 5vw;
+        }
+/* ============================================================================== */
 
-.card-img-top {
+.imagem-card {
     width: 30vw; 
     margin-top: 8%;
 }
-    @media (min-width:580px)   {.card-img-top{width: 25vw;}}
-    @media (min-width: 768px)  {.card-img-top {width: 130px;}}
-    @media (min-width: 1440px) {.card-img-top {width: 152px;}}
+    @media (min-width:580px)   {.imagem-card {width: 25vw;}}
+    @media (min-width: 768px)  {.imagem-card {width: 130px;}}
+    @media (min-width: 1440px) {.imagem-card {width: 152px;}}
 
-.t1 {font-size: 4vw; margin-top: -5%;}
-    @media (min-width: 580px) {.t1 {font-size: 3.7vw;}}   
-    @media (min-width: 768px) {.t1 {font-size: 3vw;}}
-    @media (min-width: 1024px){.t1 {font-size: 20px;}}
-    @media (min-width: 1440px){.t1 {font-size: 22px;} }
+.texto1-card {
+    font-size: 4vw; 
+    margin-top: -5%;
+}
+    @media (min-width: 580px) {.texto1-card {font-size: 3.7vw;}}   
+    @media (min-width: 768px) {.texto1-card {font-size: 3vw;}}
+    @media (min-width: 1024px){.texto1-card {font-size: 20px;}}
+    @media (min-width: 1440px){.texto1-card {font-size: 22px;}}
 
-.t2 {font-size: 5vw; font-weight: bold;}
-    @media (min-width: 580px) {.t2 {font-size: 4.5vw;}} 
-    @media (min-width: 768px) {.t2 {font-size: 2.6vw;}}
-    @media (min-width: 1024px){.t2 {font-size: 26px;}}
-    @media (min-width: 1440px){.t2 {font-size: 32px;}}
+.texto2-card {
+    font-size: 5vw; 
+    font-weight: bold;
+}
+    @media (min-width: 580px) {.texto2-card {font-size: 4.5vw;}} 
+    @media (min-width: 768px) {.texto2-card {font-size: 2.6vw;}}
+    @media (min-width: 1024px){.texto2-card {font-size: 26px;}}
+    @media (min-width: 1440px){.texto2-card {font-size: 32px;}}
  
-.t3, .t4 {font-size: 3vw; margin-top: -4%;}
-    @media (min-width: 768px) {.t3, .t4 {font-size: 2vw;}}
-    @media (min-width: 1024px) {.t3, .t4 {font-size: 18px;}}
-    @media (min-width: 1440px) {.t3, .t4 {font-size: 22px;}}
+.texto3-card, .texto4-card {
+    font-size: 3vw; 
+    margin-top: -4%;
+}
+    @media (min-width: 768px)  {.texto3-card, .texto4-card {font-size: 2vw;}}
+    @media (min-width: 1024px) {.texto3-card, .texto4-card {font-size: 18px;}}
+    @media (min-width: 1440px) {.texto3-card, .texto4-card {font-size: 22px;}}
 
 
-/* estilo textos finais */
+/* =========================== estilo textos finais =========================== */
 
-.texto-meio {font-size: 6vw; margin-top: 5%; margin-top: 10%; }
+.texto-central {
+    font-size: 6vw; 
+    margin-top: 5%; 
+    margin-top: 10%; 
+}
 
-.texto-titulo {font-size: 6vw; font-weight: bold; margin-top: -4%;}
-    @media (min-width: 768px){ .texto-titulo{margin-bottom: 10%;}}
-    @media (min-width: 1024px){.texto-titulo, .texto-meio{font-size: 60px;}}
+.texto-central2 {
+    font-size: 6vw; 
+    font-weight: bold; 
+    margin-top: -4%;
+}
+    @media (min-width: 768px){.texto-central2 {margin-bottom: 10%;}}
+    @media (min-width: 1024px){.texto-central2, .texto-central {font-size: 60px;}}
 
 .titulo-final{
     font-size: 6vw;
@@ -125,7 +147,6 @@ body {
 }
     @media(min-width: 576px){.titulo-final{font-size: 26px; text-align: left; margin-top: 6%}}
     @media(min-width: 768px){.titulo-final{font-size: 30px; text-align: left; margin-top: 6%}}
-
     @media (min-width: 1024px) {
         .titulo-final{
             font-size: 34px;
@@ -137,7 +158,6 @@ body {
             padding: 5%;
         }
     } 
-
     @media (min-width: 1440px) {
         .titulo-final{
             font-size: 42px;
@@ -149,18 +169,16 @@ body {
         }
     } 
 
-.linha-vertical{
-    height: 110px;
-    margin-left: 8px;
-    border-left: 3px solid #FFFFFF;
-}
-    @media(max-width: 1023px){
+/* ================ linha vertical : apenas acima de 1024px ====================*/
         .linha-vertical{
-            height: 0;
+            height: 110px;
+            margin-left: 8px;
+            border-left: 3px solid #FFFFFF;
         }
-    }
-    @media (min-width: 1024px) {.linha-vertical{height: 17vw;}}
-    @media (min-width: 1140px) {.linha-vertical{height: 196px;}}  
+            @media(max-width: 1023px){.linha-vertical{height: 0;}}
+            @media (min-width: 1024px) {.linha-vertical{height: 17vw;}}
+            @media (min-width: 1140px) {.linha-vertical{height: 196px;}}  
+/* ============================================================================ */
 
 .texto-final {
     font-size: 4vw;
@@ -169,7 +187,12 @@ body {
     padding: 7%;
 }
     @media(min-width: 576px){
-        .texto-final{font-size: 13px; margin-left: 5%; text-align: left; padding: 0; margin-top: 5%;}
+        .texto-final{
+            font-size: 13px; 
+            margin-left: 5%; text-align: left; 
+            padding: 0; 
+            margin-top: 5%;
+        }
     }
 
     @media (min-width: 768px) {
@@ -202,16 +225,37 @@ body {
             margin-left: 4%;
         }
     } 
+/* ================================ footer ==================================== */
 
-.rodape {height: auto; background-color: black;}
+.rodape {
+    height: auto; 
+    background-color: black;
+}
     @media(min-width: 768px){.rodape{height: 100px;}}
     @media(min-width: 1024px){.rodape{height: 150px;}}
     @media(min-width: 1140px){.rodape{height: 215px;}}
 
-.texto-rodape {font-size: 4vw; margin-top: 5vw;}
-    @media(min-width: 768px){.texto-rodape{margin-top: 4vw;}}
-    @media(min-width: 1024px){.texto-rodape{font-size: 26px; margin-top: 5vw;}}
-    @media(min-width: 1140px){.texto-rodape{margin-top: 7vw;}}
-
+.texto-rodape {
+    font-size: 4vw; 
+    margin: auto; 
+    padding: 4vw;
+}
+    @media(min-width: 1024px){.texto-rodape{font-size: 26px;}}
+  
     
-/* Mediaquery para tela EG - 4k*/
+/* ======================= mediaquery para tela EG - 4k ======================= */
+
+@media(min-width: 1600px){
+    .txt {font-size: 2.5vw; line-height: 100%;}
+    .btn {width: 30vw;}
+    .card-img-top {width: 12vw;}
+    .t1, .t2, .t3, .t4 {line-height: 2.3vw; font-size: 1.3vw;}
+    .texto-meio, .texto-titulo {font-size: 4vw; line-height: 7vw;}
+    .titulo-final {font-size: 3vw;}
+    .linha-vertical {height: 16vw;}
+    .texto-final {font-size: 2vw; line-height: 2.1vw;}
+    .rodape {height: auto;} 
+    .texto-rodape {font-size: 2vw; margin: auto; padding: 5vw;}
+}
+
+/* =============================== FIM ======================================== */
