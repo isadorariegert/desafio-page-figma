@@ -46,22 +46,10 @@ body {
 .txt {
     font-size: 3.5vw; 
     font-weight: 500;
-    margin-top: 1.3vw;
-    margin-bottom: 1vw;
 }
     @media (min-width: 768px) {.txt {font-size: 22px;}}    
-    @media (min-width: 1024px) {
-        .txt {
-            font-size: 24px;
-            line-height: 1.4;
-        }
-    }
-    @media (min-width: 1440px) {
-        .txt {
-            font-size: 26px;
-            line-height: 26px;
-        }
-    }
+    @media (min-width: 1024px) {.txt {font-size: 24px;line-height: 1.4;font-weight: 300;}}
+    @media (min-width: 1440px) {.txt {font-size: 26px; line-height: 26px;}}
 
 .btn {
     width: 50vw;
@@ -71,7 +59,7 @@ body {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.50);
     color: #FFFFFF;
 }
-    @media (min-width: 768px) {.btn {width: 250px; font-size: 20px; margin-bottom: 50px;}}
+    @media (min-width: 768px) {.btn {width: 250px; font-size: 20px; margin-bottom: 30px;}}
     @media (min-width: 1024px) {.btn {width: 320px; font-size: 25px; }}
     @media (min-width: 1140px) {.btn {width: 368px; font-size: 30px; }}
         .btn:hover{
@@ -115,7 +103,7 @@ body {
     @media (min-width: 1024px){.t2 {font-size: 26px;}}
     @media (min-width: 1440px){.t2 {font-size: 32px;}}
  
-.t3, .t4 {font-size: 3vw; margin-top: -3%;}
+.t3, .t4 {font-size: 3vw; margin-top: -4%;}
     @media (min-width: 768px) {.t3, .t4 {font-size: 2vw;}}
     @media (min-width: 1024px) {.t3, .t4 {font-size: 18px;}}
     @media (min-width: 1440px) {.t3, .t4 {font-size: 22px;}}
@@ -225,10 +213,5 @@ body {
     @media(min-width: 1024px){.texto-rodape{font-size: 26px; margin-top: 5vw;}}
     @media(min-width: 1140px){.texto-rodape{margin-top: 7vw;}}
 
-/*
-<img src="img/developer-1.webp" type="img/webp"
-                 srcset="img/dev425.png 425w, img/dev768.jpeg 768w"
-                 sizes="100w"
-                 alt="Imagem de tela de computador com codigos em HTML" class="img-fluid  mw-100 imagem-dev">
-
-*/
+    
+/* Mediaquery para tela EG - 4k*/
