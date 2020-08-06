@@ -28,6 +28,7 @@ body {
     font-size: 8vw;
     font-weight: 555;
 }
+    @media (min-width: 560px)  {.titulo-header {font-size: 4.8vw;}}
     @media (min-width: 1024px) {.titulo-header {font-size: 60px;}}
     @media (min-width: 1440px) {.titulo-header {font-size: 80px;}}
 
@@ -47,6 +48,7 @@ body {
     font-size: 3.5vw; 
     font-weight: 500;
 }
+    @media (min-width: 560px) {.texto-inicial {font-size: 2.6vw; margin-top: -2%;}}
     @media (min-width: 768px) {.texto-inicial {font-size: 22px;}}    
     @media (min-width: 1024px) {.texto-inicial {font-size: 24px;line-height: 1.4;font-weight: 300;}}
     @media (min-width: 1440px) {.texto-inicial {font-size: 26px; line-height: 26px;}}
@@ -59,6 +61,7 @@ body {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.50);
     color: #FFFFFF;
 }
+    @media (min-width: 560px) {.botao-central {width: 40vw; font-size: 3vw;}}
     @media (min-width: 768px) {.botao-central {width: 250px; font-size: 20px; margin-bottom: 30px;}}
     @media (min-width: 1024px) {.botao-central {width: 320px; font-size: 25px;}}
     @media (min-width: 1140px) {.botao-central {width: 368px; font-size: 30px;}}
@@ -76,8 +79,8 @@ body {
     align-items: center;
     width: 70vw;
 }
-    @media (min-width: 768px){.card:hover {line-height: 30px;}}
-    @media (min-width: 1024px){.card:hover {line-height: 35px;}}
+    @media (min-width: 768px)  {.card:hover {line-height: 30px;}}
+    @media (min-width: 1024px) {.card:hover {line-height: 35px;}}
         
 /* =========================== evento de estilo card ============================ */
         .card:hover{
@@ -92,7 +95,7 @@ body {
     width: 30vw; 
     margin-top: 8%;
 }
-    @media (min-width:580px)   {.imagem-card {width: 25vw;}}
+    @media (min-width: 560px)  {.imagem-card {width: 20vw;}}
     @media (min-width: 768px)  {.imagem-card {width: 130px;}}
     @media (min-width: 1440px) {.imagem-card {width: 152px;}}
 
@@ -100,7 +103,7 @@ body {
     font-size: 4vw; 
     margin-top: -5%;
 }
-    @media (min-width: 580px) {.texto1-card {font-size: 3.7vw;}}   
+    @media (min-width: 560px) {.texto1-card {font-size: 3vw; margin-top: -6%;}}   
     @media (min-width: 768px) {.texto1-card {font-size: 3vw;}}
     @media (min-width: 1024px){.texto1-card {font-size: 20px;}}
     @media (min-width: 1440px){.texto1-card {font-size: 22px;}}
@@ -109,7 +112,7 @@ body {
     font-size: 5vw; 
     font-weight: bold;
 }
-    @media (min-width: 580px) {.texto2-card {font-size: 4.5vw;}} 
+    @media (min-width: 560px) {.texto2-card {font-size: 3.5vw; margin-top: -5%;}} 
     @media (min-width: 768px) {.texto2-card {font-size: 2.6vw;}}
     @media (min-width: 1024px){.texto2-card {font-size: 26px;}}
     @media (min-width: 1440px){.texto2-card {font-size: 32px;}}
@@ -118,7 +121,8 @@ body {
     font-size: 3vw; 
     margin-top: -4%;
 }
-    @media (min-width: 768px)  {.texto3-card, .texto4-card {font-size: 2vw;}}
+    @media (min-width: 560px) {.texto3-card, .texto4-card {font-size: 2.5vw;}} 
+    @media (min-width: 768px)  {.texto3-card, .texto4-card {font-size: 1.7vw;}}
     @media (min-width: 1024px) {.texto3-card, .texto4-card {font-size: 18px;}}
     @media (min-width: 1440px) {.texto3-card, .texto4-card {font-size: 22px;}}
 
@@ -136,6 +140,7 @@ body {
     font-weight: bold; 
     margin-top: -4%;
 }
+    @media (min-width: 560px) {.texto-central2, .texto-central {font-size: 5vw;}}
     @media (min-width: 768px){.texto-central2 {margin-bottom: 10%;}}
     @media (min-width: 1024px){.texto-central2, .texto-central {font-size: 60px;}}
 
@@ -145,7 +150,7 @@ body {
     padding-left: 5%;
     margin-top: 2%;
 }
-    @media(min-width: 576px){.titulo-final{font-size: 26px; text-align: left; margin-top: 6%}}
+    @media(min-width: 560px){.titulo-final{font-size: 4vw; text-align: left; margin-top: 5%; display: block;}}
     @media(min-width: 768px){.titulo-final{font-size: 30px; text-align: left; margin-top: 6%}}
     @media (min-width: 1024px) {
         .titulo-final{
@@ -186,12 +191,14 @@ body {
     line-height:130%;
     padding: 7%;
 }
-    @media(min-width: 576px){
+    @media(min-width: 560px){
         .texto-final{
-            font-size: 13px; 
-            margin-left: 5%; text-align: left; 
+            font-size: 2.6vw; 
+            font-weight: lighter;
+            text-align: justify;
             padding: 0; 
-            margin-top: 5%;
+            margin-top: 4%;
+            margin-bottom: 2%;
         }
     }
 
@@ -258,4 +265,10 @@ body {
     .texto-rodape {font-size: 2vw; margin: auto; padding: 5vw;}
 }
 
-/* =============================== FIM ======================================== */
+
+/* ============================ BREAKPOINTS ===============================:
+560px - telas de celulares acessados na horizontal
+768px - telas de tablet
+> 1024px - telas de notebooks P/M
+> 1600px - telas de notebooks G/GG
+=================================== FIM =================================== */
